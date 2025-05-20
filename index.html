@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
     userInput.value = "";
 
     try {
-      const res = await fetch(https://chatbottoolforall-l23o.onrender.com/endpoint, {
+      const res = await fetch("https://chatbottoolforall-l23o.onrender.com/endpoint", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: message, user_id: userId })
